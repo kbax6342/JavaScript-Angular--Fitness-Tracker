@@ -9,7 +9,9 @@ fitnessTracker.controller('mainController', function($scope) {
 
     $scope.message2 = 'This is the second title';
 
-    $scope("loginButton").alert('Welcome to the App!');
+    function($scope.){
+
+    }
 
 });
 
