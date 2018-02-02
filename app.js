@@ -7,11 +7,10 @@ fitnessTracker.controller('mainController', function($scope) {
 
     $scope.header = "Login";
 
+    $scope.second= "Fitness Tracker";
+
     $scope.message2 = 'This is the second title';
 
-    function($scope.){
-
-    }
 
 });
 

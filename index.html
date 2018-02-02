@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/Users/Baxter/Web-Dev-Workspace/Fitness-Tracker/style.css">
 
    
 
@@ -17,22 +18,36 @@
   </head>
   <body ng-app="fitnessTracker">
 
-    <h1>Fitness Tracker</h1>
+      <div class="video-background">
+          <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/89yP76HLtjc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=89yP76HLtjc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
 
-    
-    <div ng-controller="mainController" >
-            {{message}}
-            <h3>{{header}}</h3>
-            <button id="loginButton" value="Login">Login</button>
-            <button (click)="onClickMe()">Login</button>
-        <h3>Sign Up</h3>
+        <div class="top-banner">
+          <h1 class="title" >Tracker.</h1>
+        </div>
 
-        {{message2}}
-        <h1>hello</h1>
-        
-    
-         
-    </div>
+        <div id="vidtop-content" ng-controller="mainController">
+            <div class="vid-info">
+                <h1 class="second-title">{{second}}</h1>
+                {{message}}
+                <h3>{{header}}</h3>
+                <label for="username">Username: </label>
+                <input type="text">
+                <br>
+                <label for="password">Password: </label>
+                <input type="text">
+                <br>
+                <div>
+                  <button id="loginButton" value="Login">Login</button>
+                  <button id="signUp">Sign Up</button>
+                </div>
+                
+              </div>
+            </div>
+
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
