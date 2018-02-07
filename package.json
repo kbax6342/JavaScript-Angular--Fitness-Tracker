@@ -1,0 +1,25 @@
+{
+  "name": "fitness_tracker",
+  "version": "1.0.0",
+  "description": "Fitness Tracking Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbax6342/Fitness-Tracker.git"
+  },
+  "author": "Kevin Baxter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbax6342/Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/kbax6342/Fitness-Tracker#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jshint": "^2.9.5",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {}
+}

@@ -6,6 +6,38 @@ body{
   margin: 0px;
   padding: 0px;
 }
+
+label{
+  margin-left: 40%;
+  text-align: center; 
+}
+
+.logo{
+  margin-left: 34%;
+  margin-top: -9rem;
+}
+
+.second-title{
+  text-align: center;
+}
+
+.title-caption{
+  text-align: center;
+}
+
+.welcome-button{
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left:0.7rem;
+  width: 46% !important;
+  height: 3rem;
+  background-color: rgb(255,2420,0);
+}
+input{
+ height: 2rem;
+ width: 100% !important;
+}
 .video-background {
   background: #000;
   position: fixed;
@@ -49,22 +81,39 @@ body{
    color: #fff; 
    padding: 1rem; 
    font-family: Avenir, Helvetica, sans-serif; 
-   margin-right: 26rem;
-   margin-top: 13rem;
+   margin-right: 35%;
+   margin-top: 20%;
   }
 
 .vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+.vid-info a { 
+  display: inline; 
+  color: rgb(255,2420,0); 
+  ext-decoration: none; 
+  transition: .6s background; 
+  border-bottom: none; 
+  margin: 1rem auto; 
+  text-align: center; 
+}
+
 @media (min-aspect-ratio: 16/9) {
   .video-foreground { height: 300%; top: -100%; }
 }
+
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
 }
+
 @media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
+.vid-info { width: 50%; padding: .5rem; 
+}
+.vid-info h1 { 
+  margin-bottom: .2rem; 
+}
+
 }
 @media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
+
+.vid-info .acronym { display: none; 
+}
 }

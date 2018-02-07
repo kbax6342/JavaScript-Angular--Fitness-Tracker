@@ -5,16 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/Users/Baxter/Web-Dev-Workspace/Fitness-Tracker/style.css">
-
-   
-
-    <!-- SPELLS -->
-
+    
     <!-- load angular and angular route via CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.32/angular.min.js"></script>
     <script src="/Users/Baxter/Web-Dev-Workspace/Fitness-Tracker/app.js"></script>
 
-    <title>Hello, world!</title>
+    <title>Tracker.</title>
   </head>
   <body ng-app="fitnessTracker">
 
@@ -25,23 +21,33 @@
         </div>
 
         <div class="top-banner">
-          <h1 class="title" >Tracker.</h1>
+          <img class="logo" src="/Users/Baxter/Web-Dev-Workspace/Fitness-Tracker/500X500_FitnessTrackerLogo_kb.png" alt="">
+          <p>.</p>
         </div>
 
         <div id="vidtop-content" ng-controller="mainController">
             <div class="vid-info">
                 <h1 class="second-title">{{second}}</h1>
-                {{message}}
-                <h3>{{header}}</h3>
-                <label for="username">Username: </label>
+                <p class="title-caption">{{message}}</p>
+                <h3><u>{{header}}</u></h3>
+                <label for="username" >Username: </label>
+                <br>
                 <input type="text">
                 <br>
-                <label for="password">Password: </label>
+                <label for="password" >Password: </label>
+                <br>
                 <input type="text">
                 <br>
+
                 <div>
-                  <button id="loginButton" value="Login">Login</button>
-                  <button id="signUp">Sign Up</button>
+                  <a class="button" href="#">
+                    <button class="welcome-button">Login</button>
+                    
+                </a>
+                <a class="button" href="#">
+                  <button class="welcome-button">Register</button>
+                  
+                </a> 
                 </div>
                 
               </div>
